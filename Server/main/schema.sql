@@ -1,3 +1,6 @@
+CREATE DATABASE mydb;
+\c mydb;
+
 CREATE TABLE users (
   uid SERIAL PRIMARY KEY,
   username VARCHAR(255) UNIQUE,
@@ -38,14 +41,5 @@ CREATE TABLE messages (
   date_created TIMESTAMP
 );
 
-
--- user: react
--- db: mydb
--- passwd: docker
-
--- docker run --name orm-postgres \
--- -e POSTGRES_PASSWORD=docker \
--- -e POSTGRES_USER=react \
--- -e POSTGRES_DB=mydb \
--- -p 5432:5432 \
---  -d postgres
+-- \c mydb
+-- \dt
