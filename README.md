@@ -8,3 +8,20 @@ Chapters:
 * :arrow_up: Node/Express
 * :zap: PostgreSQL
 * :recycle: AWS
+
+## Run the project on local
+
+Open two terminal. And enter the block belows in the terminal 1:
+```bash
+$ cd Server
+$ npm run devstart
+```
+
+Terminal 2: 
+
+```bash
+$ cd Client
+$ npm start
+```
+
+Enjoy ! :dove: 
