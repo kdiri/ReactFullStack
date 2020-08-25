@@ -11,7 +11,7 @@ Chapters:
 
 ## Run the project on local
 
-Open two terminal. And enter the block belows in the terminal 1:
+Open two terminal. And enter the block below in the terminal 1:
 ```bash
 $ cd Server
 $ npm run devstart
